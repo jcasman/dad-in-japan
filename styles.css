@@ -94,6 +94,39 @@ figure.portrait figcaption {
   margin-right: auto;
 }
 
+figure.map {
+  text-align: center;
+}
+
+figure.map svg {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+  height: auto;
+}
+
+figure.map figcaption {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.reduced {
+  text-align: center;
+}
+
+figure.reduced img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+figure.reduced figcaption {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 figcaption {
   margin-top: 0.55rem;
   color: var(--muted);
